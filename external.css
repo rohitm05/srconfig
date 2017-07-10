@@ -1,0 +1,125 @@
+/* CSS Document */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body { background:#ffffff; font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+/*top bar*/
+
+.container
+{
+	width:100%;
+	margin:0 auto;
+	max-width:970px;
+}
+/*lit logo*/
+.logo
+{
+	padding-top: 15px;
+    width: 20%;
+	float:left;
+	height: 10px;
+	margin-top: 10px;    
+}
+/*menu design*/
+.menu
+{
+	float:right;
+	padding-top:40px;
+	font-size:16px;
+	list-style:none;
+	display:block;
+}
+.menu li
+{
+	display:inline;	
+	margin-right: 24px;
+		
+}
+.menu li a
+{
+	color:white;	
+	font-weight:bold;
+	
+}
+/*banner image*/
+
+/*responsive-menu*/
+.menu_icon
+{
+	float:right;
+	padding-top:26px;
+	display:none;
+}
+@media screen and (max-width: 820px)
+{
+.menu
+{
+	float:left;
+	padding-top:27px;
+	font-size:16px;
+	list-style:none;	 
+	width: 100%;
+	display:none;
+}	
+.menu li 
+{
+	margin: 0;
+	background-color:yellow;
+	display:block;
+	margin-bottom: 3px;
+	
+}
+.menu li a 
+{
+	display:block;
+	padding: 10px;
+	text-align: center;
+}
+
+.menu_icon
+{
+	float:right;
+	padding-top:26px;
+	display:block;
+}
+}
+@media screen and (max-width: 645px)
+{
+	.menu
+{
+	float:left;
+	padding-top:27px;
+	font-size:16px;
+	list-style:none;	 
+	width: 100%;
+	display:none;
+}	
+.menu li 
+{
+	margin: 0;
+	background-color:yellow;
+	display:block;
+	margin-bottom: 3px;
+	
+}
+.menu li a 
+{
+	display:block;
+	padding: 10px;
+	text-align: center;
+}
+
+.menu_icon
+{
+	float:right;
+	padding-top:26px;
+	display:block;
+	
+}	
+.menucover 
+{
+	width:80px;
+	height:auto;
+	padding-top:10px;
+}
+
+}
